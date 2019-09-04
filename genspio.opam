@@ -10,7 +10,6 @@ dev-repo: "git+https://github.com/hammerlab/genspio.git"
 license: "Apache 2.0"
 version: "0.0.3-dev"
 build: [
-  ["ocaml" "please.mlt" "configure"]
   ["dune" "build" "-p" name "-j" jobs ]
 ]
 depends: [
